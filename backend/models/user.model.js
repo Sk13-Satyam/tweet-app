@@ -52,7 +52,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
-}, { timeseries: true });
+}, { timestamps: true });
 
 
 const user = mongoose.model("User", userSchema);
